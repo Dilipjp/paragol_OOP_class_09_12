@@ -4,7 +4,7 @@ import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.util.Scanner;
 
-public class FileRead {
+public class FileReadwhile {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -20,12 +20,11 @@ public class FileRead {
 			System.exit(0);
 		}
 		
-		s = sc.nextLine();
-		System.out.println(s);
-		s = sc.nextLine();
-		System.out.println(s);
-		s = sc.nextLine();
-		System.out.println(s);
+		while(sc.hasNextLine()) {
+			s = sc.nextLine();
+			System.out.println(s);
+			
+		}
 
 
 	}
