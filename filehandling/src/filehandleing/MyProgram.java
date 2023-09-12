@@ -1,4 +1,4 @@
-package filehandling;
+package filehandleing;
 
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
