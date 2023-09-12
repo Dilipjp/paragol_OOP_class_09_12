@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 import java.io.PrintWriter;
 import java.util.Scanner;
 
-public class MyProgram {
+public class FileWrite {
 
 	public static void main(String[] args)  {
 		// TODO Auto-generated method stub
@@ -13,6 +13,7 @@ public class MyProgram {
 		PrintWriter pw = null;
 		String s;
 		Scanner kb = new Scanner(System.in);
+		Scanner sc = null;
 		try {
 			pw = new PrintWriter(new FileOutputStream("Dilip.txt", true) );
 		} catch (FileNotFoundException e) {
