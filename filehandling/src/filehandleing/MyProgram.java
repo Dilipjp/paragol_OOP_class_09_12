@@ -14,7 +14,7 @@ public class MyProgram {
 		String s;
 		Scanner kb = new Scanner(System.in);
 		try {
-			pw = new PrintWriter(new FileOutputStream("Dilip.txt"));
+			pw = new PrintWriter(new FileOutputStream("Dilip.txt", true) );
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
 			//e.printStackTrace();
